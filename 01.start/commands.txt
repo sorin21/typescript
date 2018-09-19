@@ -1,0 +1,23 @@
+1. create index.html and app.ts
+2. create package.json 
+  npm init -y
+3. install server
+  npm i light-server --save-dev
+
+  -run it 
+  npm run start
+  
+4. add tsc
+  tsc --init
+  - find ts files and transform
+  tsc
+  - compile on save
+  tsc -w
+
+5. create a single file app.js from all
+  tsc --outFile app.js  app.ts
+  - import files in app.ts
+  /// <reference path="circleMath.ts" />
+
+6. to use es6 modules
+  npm i systemjs

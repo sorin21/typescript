@@ -1,0 +1,16 @@
+{
+  "name": "01.start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "light-server -s ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "light-server": "^2.5.1"
+  }
+}
